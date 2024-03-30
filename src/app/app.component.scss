@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    height: 125vh;
+    width: 100%;
+    margin-top: 80px;
+    padding: 30px;
+}
+header{
+    position: fixed;
+    background-image: url("../assets/dune.jpg");
+    background-size: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    font-family:cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+    height: 60px;
+    margin-left: 5%;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    color: #8B4513;
+    
+}
+header *{
+    display: inline;
+  
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+header li {
+  margin: 20px;
+  }
+
+header ul{
+    
+    width: 100%;
+   
+  }
+header li a{
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: #25161b;
+    float: left;
+    font-size: 20px;
+    
+}
+li a:hover{
+    background-color: 	#d9b99b;
+    font-size: larger;
+    border-radius: 50%;
+}
