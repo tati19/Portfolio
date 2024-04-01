@@ -1,17 +1,20 @@
 button{
     background-color: black;
     margin:4%;
-    color: white;
+    opacity: 80%;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    border-color: transparent;
-    font-size: 16px;
-    box-shadow: 0 0 .2rem #fff,
-                    0 0 .2rem #fff,
-                    0 0 2rem blue,
-                    0 0 0.8rem blue,
-                    0 0 2.8rem #bc13fe,
-                    inset 0 0 1.3rem blue;
+    border-radius: 6px;
+    box-shadow: 0 0 0rem #fff,
+                0 0 0rem #fff,
+                0 0 0rem blue,
+                0 0 0.4rem blue,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 0.1rem blue;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
     }

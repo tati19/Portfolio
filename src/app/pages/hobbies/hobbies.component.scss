@@ -1,0 +1,68 @@
+body{
+    background-image: url(../../../assets/hobb.png);
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: #f3dbff;
+    text-shadow:
+      0 0 3px #fff,
+      0 0 0cqi #fff,
+      0 0 2px #bc13fe,
+      0 0 30px white,
+      0 0 8px white,
+      0 0 100px #bc13fe,
+      0 0 0cqh #bc13fe,
+      0 0 151px #bc13fe;
+      margin: 5%;
+      opacity: 100%;
+      letter-spacing: 5px;
+}
+#buttons{
+   
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  div.gallery {
+    margin: 5px;
+    z-index: 1;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem blue,
+                0 0 0.8rem blue,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem blue;
+    float: left;
+    width: 180px;
+    color: #f3dbff;
+    box-shadow: 0 0 0rem #fff,
+    0 0 0rem #fff,
+    0 0 0rem blue,
+    0 0 0.4rem blue,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 0.1rem blue;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #bc13fe;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #pictures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+  }
