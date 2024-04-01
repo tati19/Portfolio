@@ -9,7 +9,7 @@ html{
 }
 //Presentation code
 #presentation{
-    background: url("../../../assets/dune.jpg") repeat-y 30%; 
+    background: url("../../../assets/bg_neon.jpg") repeat-y 30%; 
     background-size: 100%;
     height: 50%;
     position: relative;
@@ -24,6 +24,7 @@ html{
     position: absolute;
     left: 35%;
     bottom: 0;
+    opacity: 90%;
 }
 #dev{
     position:relative;
@@ -33,16 +34,39 @@ html{
     text-align: center;
 }
 #dev h1{
-    color: #8B4513;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 60px;
+    font-family:cursive;
     letter-spacing: 5px;
     font-weight: 30%;
+    color: #fff;
+  text-shadow:
+    0 0 3px #fff,
+    0 0 0cqi #fff,
+    0 0 2px #fff,
+    0 0 30px blue,
+    0 0 8px blue,
+    0 0 92px #bc13fe,
+    0 0 152px #bc13fe,
+    0 0 151px #bc13fe;
 }
 #dev p{
+    background-color: black;
+    font-size: 21px;
+    color: white;
+    opacity: 80%;
     word-spacing: 7px;
     line-height: 150%;
     font-family:cursive;
     font-weight: bold;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem blue,
+                0 0 0.8rem blue,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem blue;
 }
 #supp{
     position: relative;
@@ -52,22 +76,46 @@ html{
     text-align: center;
 }
 #supp h1{
-    color: #8B4513;
+    font-size: 60px;
     font-family:cursive;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
+    font-weight: 30%;
+    color: #fff;
+  text-shadow:
+    0 0 3px #fff,
+    0 0 0cqi #fff,
+    0 0 2px #fff,
+    0 0 30px blue,
+    0 0 8px blue,
+    0 0 92px #bc13fe,
+    0 0 152px #bc13fe,
+    0 0 151px #bc13fe;
 }
 #supp p{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    opacity: 80%;
     word-spacing: 7px;
     line-height: 150%;
     font-family:cursive;
     font-weight: bold;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem blue,
+                0 0 0.8rem blue,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem blue;
+                
 }
 
 //Bio code
 
 #bio{
-    background-color: #D9BA9E;
+    background-color: black;
     margin: 0;
     height: 50%;
     scroll-behavior: smooth;
@@ -78,14 +126,25 @@ html{
 }
 #bio h1{
     margin: 0;
+    font-size: 30px;
     text-align: center;
     padding-top: 10%;
-    color: #8B4513;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
+    color: #fff;
+  text-shadow:
+    0 0 0px #fff,
+    0 0 0cqi #fff,
+    0 0 2px #fff,
+    0 0 30px blue,
+    0 0 8px blue,
+    0 0 92px #bc13fe,
+    0 0 152px #bc13fe,
+    0 0 151px #bc13fe;
 }
 
 #bio p{
+    color: #bc13fe;
     font-size: 18px;
     word-spacing: 4px;
     letter-spacing: 2px;
@@ -97,5 +156,14 @@ html{
     font-size: 20px;
     letter-spacing: 6px;
     font-weight: bold;
-    color: #8B4513;
+    color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 2cqi #fff,
+    0 0 2px #fff,
+    0 0 30px blue,
+    0 0 8px blue,
+    0 0 92px #bc13fe,
+    0 0 152px #bc13fe,
+    0 0 151px #bc13fe;
 }
